@@ -3,7 +3,7 @@ def turn_count(board)
     count = 0
     if (player == "X" || "O")
       count += 1
-      board.count(player)
+    end
   end
 end
 
