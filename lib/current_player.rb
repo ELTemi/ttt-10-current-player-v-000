@@ -1,7 +1,6 @@
 def turn_count(board)
-  turn_count = 0
-  board.each do |count|
-  count.include?("X")
+  board.each do |player|
+  board.count("player")
   end
 end
 
