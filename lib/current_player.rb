@@ -1,7 +1,5 @@
 def turn_count(board)
-  board.each do |player|
-    player = "X" || "O"
-  board.count("player")
+  board.count("X") + board.count("O")    
   end
 end
 
